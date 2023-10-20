@@ -1,0 +1,76 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Navigation Styles */
+.nav-wrapper {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nav-wrapper .brand-logo {
+    float: left;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-wrapper ul {
+    float: right;
+}
+
+.nav-wrapper ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-wrapper ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Button Styles */
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
